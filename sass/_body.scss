@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'header header'
+    'hero hero'
+    'main main'
+    'footer footer';
+    background-color: #ede0d4;
+    font-family: 'Poppins', sans-serif;
+}

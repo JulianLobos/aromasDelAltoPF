@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <!-- etiquetas link estilos -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- fuente principal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- título de la página -->
+    <title> Aromas del Alto - Contacto </title>
+</head>
+<body>
+    <!-- inicio header -->
+    <header>
+        <!-- logo -->
+        <a href="../index.html"><img src="../img/logo.png" alt="logo aromas del alto" class="header__logo"></a>
+
+        <!-- boton hamburguesa -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+        
+        <!-- menú de navegación -->
+        <nav class="header__menu">
+            <ul class="header__menulist">
+                <li class="header__listitem"><a href="../index.html"> Home </a></li>
+                <li class="header__listitem"><a href="nosotros.html"> Nosotros </a></li>
+                <li class="header__listitem"><a href="productos.html"> Productos </a></li>
+                <li class="header__listitem"><a href="tienda.html"> Tienda </a></li>
+                <li class="header__listitem"><a href="contacto.html"> Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main__hero__contacto">
+        <!-- título -->
+        <h1 class="main__hero__titulo">Contactanos!</h1>
+    </div>
+    
+    <!-- inicio main -->
+    <main>
+
+        <!-- redes sociales -->
+        <div class="main__contacto__agradecimiento">
+            <p>Muchas gracias por comunicarte con nosotros! Responderemos lo antes posible.
+                Tambien podés encontrarnos en nuestras redes sociales:
+            </p>
+            <a href="https://www.facebook.com/aromasdelalto_" target="_blank"><i class='fa fa-facebook'></i></a>
+            <a href="https://www.instagram.com/aromasdelalto_" target="_blank"><i class='fa fa-instagram'></i></a>
+            <a href="https://www.twitter.com/aromasdelalto" target="_blank"><i class='fa fa-twitter'></i></a>
+            <a href="https://wa.me/543525300610" target="_blank"><i class='fa fa-whatsapp'></i></a>  
+        </div>
+        <!-- formulario -->
+        <form class="main__form"> 
+            <fieldset>
+                <legend>Formulario</legend>
+                <div class="form__elemento">    
+                    <label for="nombre"> Nombre </label>
+                    <input type="text" name="nombre" placeholder="Completa tu nombre y apellido">
+                </div>
+                <div class="form__elemento">
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" required placeholder="Completa tu email"> 
+                </div>
+                <div class="form__elemento">
+                    <label for="pais"> País </label>
+                    <select name="pais"> 
+                        <option value="Argentina"> Argentina </option>
+                        <option value="Chile"> Chile </option>
+                        <option value="Uruguay"> Uruguay </option>
+                        <option value="Paraguay"> Paraguay </option>
+                        <option value="Brasil"> Brasil </option>
+                        <option value="Bolivia"> Bolivia </option>
+                        <option value="Mexico"> Mexico </option>
+                        <option value="Ecuador"> Ecuador </option>
+                        <option value="Peru"> Peru </option>
+                    </select>
+                </div>
+                <div class="form__elemento">
+                    <label for="genero"> Genero </label>
+                    <input type="radio" name="genero" value="hombre"> Hombre
+                    <input type="radio" name="genero" value="mujer"> Mujer
+                    <input type="radio" name="genero" value="no binario"> No binario
+                </div>
+
+                <div class="form__elemento">
+                    <label for="mensaje"> Mensaje </label>
+                    <textarea name="mensaje" id="" cols="30" rows="2" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="form__elemento">
+                    <input type="submit" value="Enviar" class="form__input__boton">
+                    <input type="reset" value="Resetear" class="form__input__boton">
+                </div>
+            </fieldset>     
+        </form>
+    </main>
+    <!-- inicio footer -->
+    <footer>
+        <div class="footer__container">
+            <!-- footer redes -->
+            <div class="footer__container__redes">
+                <p>Nuestras redes</p>
+                <a href="https://www.facebook.com/aromasdelalto_" target="_blank"><i class='fa fa-facebook'></i></a>
+                <a href="https://www.instagram.com/aromasdelalto_" target="_blank"><i class='fa fa-instagram'></i></a>
+                <a href="https://www.twitter.com/aromasdelalto" target="_blank"><i class='fa fa-twitter'></i></a>
+                <a href="https://wa.me/543525300610" target="_blank"><i class='fa fa-whatsapp'></i></a>            
+            </div>
+
+            <!-- footer logo -->
+            <a href="../index.html"><img src="../img/logo.png" alt="logo aromas del alto" class="footer__container__logo"></a>
+
+            <!-- footer mapa -->
+            <div class="footer__container__mapa">
+                <p>Nuestro local!</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2935264037304!2d-64.19574189529573!3d-31.409328847164616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298874e4398c1%3A0x21ede0908dec9001!2sPlaza%20Col%C3%B3n!5e0!3m2!1ses-419!2sar!4v1640103381264!5m2!1ses-419!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <!-- footer derechos -->
+        <div class="footer__derechos">
+            <p>Copyright | Todos los derechos reservados. Julian Lobos - CoderHouse</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

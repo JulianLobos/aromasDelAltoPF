@@ -1,0 +1,93 @@
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    .header__logo{
+        width: 70px;
+        margin: 15px 0 0 15px;
+    }
+    .header__menu{
+        .header__menulist{
+            list-style-type: none;
+            .header__listitem {
+                display: inline-block;
+                margin: 0 15px 0 0;
+                a {
+                    padding: 5px;
+                    border: 2px solid white;
+                    border-radius: 20px;
+                    transition: all 0.3s;
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        background: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    label, #hamburger{
+        display: none; 
+    }
+}
+/* footer */
+footer {
+    background-color: #9c6644;
+    grid-area: footer;
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer__container__redes {
+            text-align: center;
+            margin: 30px;
+            color: white;
+            a{
+                font-size: 1.75em;
+                i{
+                    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+                    &:hover{
+                        transform: scale(1.5);
+                        color: black;
+                    }
+                }
+                .fa{
+                    padding-top: 10px;
+                    font-size: 0.75em;
+                    color: white;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .footer__container__logo {
+            width: 80px;
+            height: 80px;
+            -webkit-animation: animacionLatido 1.5s ease-in-out infinite 0.5s both;
+            animation: animacionLatido 1.5s ease-in-out infinite 0.5s both;
+        }
+        .footer__container__mapa {
+            text-align: center;
+            margin: 30px;
+            color: white;
+            iframe{
+                margin-top: 10px;
+            }
+        }
+    }
+    .footer__derechos {
+        background-color: black;
+        color: white;
+        height: 40px;
+        text-align: center;
+        p{
+            padding-top: 10px;
+            font-size: 0.75em;
+        }
+    }
+}
