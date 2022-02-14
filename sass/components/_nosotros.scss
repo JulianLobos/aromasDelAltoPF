@@ -7,8 +7,7 @@ main{
         align-items: center;
         .main__nosotros__imagen {
             padding: 20px;
-            width: 85%;
-            height: auto;
+            @include size(85%, auto);
         }
         .main__nosotros__texto {
             margin: 20px;

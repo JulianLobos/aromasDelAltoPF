@@ -6,9 +6,9 @@
         margin-bottom: 15px;
         font-weight: 300;
         background-color: black;
-        padding: 10px;
+        padding: map-get($map:$btnProperties, $key:btnPadding);
         font-weight: 600;
-        border-radius: 20px;
+        border-radius: map-get($map:$btnProperties, $key:btnRadius);
         transition: all 0.3s;
         -webkit-animation: animacionBoton 1.1s 1s both;
         animation: animacionBoton 1.1s 1s both;

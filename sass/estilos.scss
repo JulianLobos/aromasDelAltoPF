@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
 }
-@import"body";
-@import"headerFooter";
-@import"hero";
-@import"main";
-@import"index";
-@import"tienda";
-@import"nosotros";
-@import"productos";
-@import"contacto";
-@import"animaciones";
-@import"mediaQueries";
+@import"base/extends";
+@import"base/mapas";
+@import"base/mixins";
+@import"components/body";
+@import"components/headerFooter";
+@import"components/hero";
+@import"components/main";
+@import"components/index";
+@import"components/tienda";
+@import"components/nosotros";
+@import"components/productos";
+@import"components/contacto";
+@import"components/animaciones";
+@import"components/mediaQueries";

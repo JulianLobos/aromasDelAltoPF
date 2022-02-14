@@ -32,8 +32,7 @@
                 flex-direction: column;
                 align-items: center;
                 .resumen__caja__imagen {
-                    width: 70%;
-                    height: auto;
+                    @include size(70%, auto);
                 }
                 .resumen__caja__texto{
                     text-align: center;
@@ -58,8 +57,7 @@
                 margin: 10px;
             }
             .main__nosotros__imagen {
-                width: 50%;
-                height: auto;
+                @include size(50%, auto);
                 justify-self: center;
                 padding: 0;
             }
@@ -79,13 +77,13 @@
     /* productos */ 
     main{
         .main__productos{
-            .main__productos__container{
-                .main__productos__container__txt{
-                    .main__productos__descripcion {
+            .prod__container{
+                .prod__container__txt{
+                    .prod__descripcion {
                         margin: 0 20px;
                     }
                 }
-                .main__productos__container__img{
+                .prod__container__img{
                     img {
                         width: 175px;
                     }
@@ -103,8 +101,7 @@
             top: 0;
             left: -100%;
             background: #ddb892;
-            height: 80vh;
-            width: 100%;
+            @include size(100%, 80vh);
             z-index: 1;
             -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -116,9 +113,8 @@
                     border: none;
                     box-sizing: border-box;
                     display: block;
-                    width: 100%;
                     text-align: center;
-                    height: 60px;
+                    @include size(100%, 60px);
                     font-size: 1.25em;
                     line-height: 60px;
                     border-radius: 0;
@@ -178,30 +174,29 @@
     main{
         .main__tienda{
             grid-template-columns: auto;
-            .main__tienda__producto {
+            .tienda__producto {
                 width: 85%;
                 display: grid;
                 grid-template-columns: 130px 1fr;
                 margin: 30px auto;
-                .main__tienda__producto__imagen {
-                    width: 130px;
-                    height: 100%;
+                .tienda__prod__img {
+                    @include size(130px, 100%);
                     overflow: hidden;
                     border-bottom-left-radius: 18px;
                     border-top-right-radius: 0px;
                     margin: 0;
                     grid-row: 1 / span 4;
                 }
-                .main__tienda__producto__titulo {
+                .tienda__prod__titulo {
                     margin-top: 10px;
                 }
-                .main__tienda__producto__titulo, .main__tienda__producto__precio, .main__tienda__producto__descripcion, .main__tienda__producto__boton {
+                .tienda__prod__titulo, .tienda__prod__precio, .tienda__prod__descripcion, .tienda__prod__btn {
                     grid-column: 2;
                 }
-                .main__tienda__producto__descripcion {
+                .tienda__prod__descripcion {
                     padding: 0 10px;
                 }
-                .main__tienda__producto__boton {
+                .tienda__prod__btn {
                     padding: 0px;
                     border-bottom-left-radius: 0;
                     height: 100%;
@@ -224,15 +219,15 @@
     main{
         .main__productos{
             margin: 20px;
-            .main__productos__container{
+            .prod__container{
                 flex-direction: column;
-                .main__productos__container__img{
+                .prod__container__img{
                     img{
                         width: 150px;
                     }
                 }
             }
-            .main__productos__container:nth-child(1), .main__productos__container:nth-child(3) {
+            .prod__container:nth-child(1), .prod__container:nth-child(3) {
                 flex-direction: column-reverse;
             }
         }

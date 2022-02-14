@@ -2,23 +2,22 @@
 main{
     .main__productos {
         margin: 40px;
-        .main__productos__container {
+        .prod__container {
             display: flex;
             justify-content: center;
             align-items: center;
             img {
-                width: 250px;
-                height: auto;
+                @include size(250px, auto);
                 margin: 20px;
             }
-            .main__productos__container__txt{
-                .main__productos__titulo{
+            .prod__container__txt{
+                .prod__titulo{
                     font-size: 1.5em;
                     font-weight: 600;
                     margin: 30px;
                     text-align: center;
                 }
-                .main__productos__descripcion {
+                .prod__descripcion {
                     margin: 0 40px;
                }
             }
