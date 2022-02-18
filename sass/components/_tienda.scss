@@ -1,8 +1,12 @@
 /* estilos tienda */ 
 
-/* saco margin agregado por bootstrap */
+/* sacando atributos agregados por bootstrap */
 p {
     margin-bottom: 0px;
+}
+
+ol, ul {
+    padding-left: 0;
 }
 
 main{
