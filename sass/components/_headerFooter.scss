@@ -36,7 +36,7 @@ header {
 }
 /* footer */
 footer {
-    background-color: #9c6644;
+    background-color: $bg-color2;
     grid-area: footer;
     .footer__container {
         @extend %displayFlex;
@@ -63,8 +63,6 @@ footer {
         }
         .footer__container__logo {
             @include size(80px, 80px);
-            -webkit-animation: animacionLatido 1.5s ease-in-out infinite 0.5s both;
-            animation: animacionLatido 1.5s ease-in-out infinite 0.5s both;
         }
         .footer__container__mapa {
             text-align: center;

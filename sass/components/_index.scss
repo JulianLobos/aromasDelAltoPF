@@ -9,7 +9,7 @@ main{
         }
     }
     .main__separador {
-        background-color: #ddb892;
+        background-color: $color3;
         height: 200px;
         .main__separador__mensaje {
             font-size: 2em;
@@ -27,7 +27,7 @@ main{
                 transition: all 0.3s;
                 &:hover {
                     transform: scale(1.05);
-                    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+                    box-shadow: $sombra2;
                 }
             }
             .resumen__caja__texto {

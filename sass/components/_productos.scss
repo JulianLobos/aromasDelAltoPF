@@ -34,7 +34,7 @@ main{
         margin: 50px auto;
         border-collapse: collapse;
         tr:hover{
-            background-color: #e6ccb4;
+            background-color: $color2;
         }
         td, th{
             border: 1px solid #000;
@@ -43,7 +43,7 @@ main{
         th {
             padding: 12px 0;
             text-align: center;
-            background-color: #b08968;
+            background-color: $color4;
             color: white;
        }
    }
