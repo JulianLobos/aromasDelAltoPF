@@ -5,9 +5,10 @@ main{
         margin: 30px;
         grid-template-columns: auto auto;
         align-items: center;
+        justify-items: center;
         .main__nosotros__imagen {
             padding: 20px;
-            @include size(85%, auto);
+            @include size(50%, auto);
         }
         .main__nosotros__texto {
             margin: 20px;

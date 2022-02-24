@@ -51,6 +51,8 @@ main{
                     margin: auto;
                     padding: 15px;
                     background-color: map-get($map:$btnProperties, $key:btnColor);
+                    font-weight: 600;
+                    font-size: 1.15em;
                     color: white;
                     border: none;
                     border-radius: map-get($map:$btnProperties, $key:btnRadius);
