@@ -124,8 +124,8 @@
             background: $color3;
             @include size(100%, 80vh);
             z-index: 1;
-            -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
             .header__menulist{
                 padding-top: 80px;
                 .header__listitem{

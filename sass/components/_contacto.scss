@@ -11,13 +11,16 @@ main{
         a{
             padding: 5px;
             font-size: 1.75em;
+            .fa{
+                font-size: 1.25em;
+                margin: 0 5px;
+            }
         }
         i{
             color: white;
             transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
             &:hover {
                 transform: scale(1.5);
-                color: black;
             }
         }
     }

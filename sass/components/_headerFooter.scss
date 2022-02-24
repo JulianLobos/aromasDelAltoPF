@@ -44,32 +44,37 @@ footer {
             text-align: center;
             margin: 30px;
             color: white;
+            .redes__titulo{
+                font-weight: 600;
+            }
             a{
                 font-size: 1.75em;
                 i{
                     transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
                     &:hover{
                         transform: scale(1.5);
-                        color: black;
                     }
                 }
                 .fa{
                     padding-top: 10px;
-                    font-size: 0.75em;
+                    font-size: 1.25em;
                     color: white;
-                    margin-right: 10px;
+                    margin-right: 12px;
                 }
             }
         }
         .footer__container__logo {
             @include size(80px, 80px);
         }
-        .footer__container__mapa {
+        .footer__container__direccion {
             text-align: center;
             margin: 30px;
             color: white;
-            iframe{
-                margin-top: 10px;
+            .direccion__titulo{
+                font-weight: 600;
+            }
+            .direccion__local{
+                font-weight: 300;
             }
         }
     }

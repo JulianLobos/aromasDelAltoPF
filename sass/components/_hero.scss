@@ -10,8 +10,8 @@
         font-weight: 600;
         border-radius: map-get($map:$btnProperties, $key:btnRadius);
         transition: all 0.3s;
-        -webkit-animation: animacionBoton 1.1s 1s both;
-        animation: animacionBoton 1.1s 1s both;
+        -webkit-animation: animacionBoton 0.3s;
+        animation: animacionBoton 0.3s;
         &:hover {
             background-color: white;
             color: black;
@@ -55,11 +55,11 @@
         font-weight: 300;
     }
     .main__hero__titulo {
-        -webkit-animation: animacionTitulo 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-        animation: animacionTitulo 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+        -webkit-animation: animacionTitulo 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+        animation: animacionTitulo 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
     }
     .main__hero__subtitulo {
-        -webkit-animation: animacionSubtitulo 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
-        animation: animacionSubtitulo 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+        -webkit-animation: animacionSubtitulo 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        animation: animacionSubtitulo 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530);
     }
 }
