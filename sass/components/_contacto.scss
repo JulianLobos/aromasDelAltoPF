@@ -9,20 +9,11 @@ main{
             margin-bottom: 15px;
         }
         a{
-            padding: 5px;
-            font-size: 1.75em;
-            .fa{
-                font-size: 1.25em;
-                margin: 0 5px;
+            img{
+                @include redes;
             }
         }
-        i{
-            color: white;
-            transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-            &:hover {
-                transform: scale(1.5);
-            }
-        }
+        
     }
     .main__form {
         margin: 30px 20px;

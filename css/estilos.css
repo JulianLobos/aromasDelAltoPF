@@ -54,15 +54,14 @@ footer {
       font-weight: 600; }
     footer .footer__container .footer__container__redes a {
       font-size: 1.75em; }
-      footer .footer__container .footer__container__redes a i {
-        transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
-        footer .footer__container .footer__container__redes a i:hover {
-          transform: scale(1.5); }
-      footer .footer__container .footer__container__redes a .fa {
-        padding-top: 10px;
-        font-size: 1.25em;
-        color: white;
-        margin-right: 12px; }
+      footer .footer__container .footer__container__redes a img {
+        width: 25px;
+        height: 25px;
+        margin: 10px 5px;
+        filter: invert(91%) sepia(19%) saturate(159%) hue-rotate(344deg) brightness(98%) contrast(90%);
+        transition: all 0.2s; }
+        footer .footer__container .footer__container__redes a img:hover {
+          transform: scale(1.25); }
   footer .footer__container .footer__container__logo {
     width: 80px;
     height: 80px; }
@@ -85,7 +84,7 @@ footer {
 
 /* hero */
 .main__hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo2.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo2.webp); }
   .main__hero .main__hero__button {
     color: white;
     margin-bottom: 15px;
@@ -104,16 +103,16 @@ footer {
     text-decoration: none; }
 
 .main__hero__tienda {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/tienda.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/tienda.webp); }
 
 .main__hero__contacto {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contactme.png); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contactme.webp); }
 
 .main__hero__nosotros {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nosotros.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nosotros.webp); }
 
 .main__hero__productos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/productos.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/productos.webp); }
 
 .main__hero, .main__hero__tienda, .main__hero__contacto, .main__hero__nosotros, .main__hero__productos {
   grid-area: hero;
@@ -365,17 +364,14 @@ main .main__contacto__agradecimiento {
   text-align: center; }
   main .main__contacto__agradecimiento p {
     margin-bottom: 15px; }
-  main .main__contacto__agradecimiento a {
-    padding: 5px;
-    font-size: 1.75em; }
-    main .main__contacto__agradecimiento a .fa {
-      font-size: 1.25em;
-      margin: 0 5px; }
-  main .main__contacto__agradecimiento i {
-    color: white;
-    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
-    main .main__contacto__agradecimiento i:hover {
-      transform: scale(1.5); }
+  main .main__contacto__agradecimiento a img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px;
+    filter: invert(91%) sepia(19%) saturate(159%) hue-rotate(344deg) brightness(98%) contrast(90%);
+    transition: all 0.2s; }
+    main .main__contacto__agradecimiento a img:hover {
+      transform: scale(1.25); }
 
 main .main__form {
   margin: 30px 20px; }

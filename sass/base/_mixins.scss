@@ -4,3 +4,14 @@
     width: $width;
     height: $height;    
 }
+
+@mixin redes {
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px;
+    filter: invert(91%) sepia(19%) saturate(159%) hue-rotate(344deg) brightness(98%) contrast(90%);
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1.25);
+    }
+}

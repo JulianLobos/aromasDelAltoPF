@@ -49,17 +49,8 @@ footer {
             }
             a{
                 font-size: 1.75em;
-                i{
-                    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-                    &:hover{
-                        transform: scale(1.5);
-                    }
-                }
-                .fa{
-                    padding-top: 10px;
-                    font-size: 1.25em;
-                    color: white;
-                    margin-right: 12px;
+                img{
+                    @include redes;
                 }
             }
         }

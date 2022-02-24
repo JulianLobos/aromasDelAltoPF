@@ -1,6 +1,6 @@
 /* hero */ 
 .main__hero {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/fondo2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/fondo2.webp);
     .main__hero__button{
         color: white;
         margin-bottom: 15px;
@@ -23,19 +23,19 @@
 }
 
 .main__hero__tienda {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/tienda.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/tienda.webp);
 }
 
 .main__hero__contacto {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/contactme.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/contactme.webp);
 }
 
 .main__hero__nosotros {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/nosotros.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/nosotros.webp);
 }
 
 .main__hero__productos {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/productos.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/productos.webp);
 }
 
 .main__hero, .main__hero__tienda, .main__hero__contacto, .main__hero__nosotros, .main__hero__productos {
