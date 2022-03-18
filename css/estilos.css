@@ -106,7 +106,7 @@ footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/tienda.webp); }
 
 .main__hero__contacto {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contactme.webp); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contactme.jpg); }
 
 .main__hero__nosotros {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nosotros.webp); }
@@ -407,7 +407,7 @@ main .main__form {
         transition: all 0.2s; }
         main .main__form fieldset .form__elemento .form__input__boton:hover {
           background-color: #0d6810; }
-    main .main__form fieldset .form__elemento:nth-child(5), main .main__form fieldset .form__elemento:nth-child(7) {
+    main .main__form fieldset .form__elemento:nth-child(6) {
       flex-direction: row; }
 
 /* animaciones */
